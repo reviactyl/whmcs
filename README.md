@@ -15,11 +15,11 @@ This module is only recommended for using with **Reviactyl v26** and above. Plea
 [Video Tutorial](https://www.youtube.com/watch?v=wURpRD9vfj4) (uses 0.7 version of the panel but nothing changed functionality wise)
 
 1. Download/Git clone this repository.
-2. Move the ``pterodactyl/`` folder into ``<path to whmcs>/modules/servers/``.
+2. Move the ``reviactyl/`` folder into ``<path to whmcs>/modules/servers/``.
 3. Create API Credentials with these permissions: <img width="830" height="393" alt="image" src="https://github.com/user-attachments/assets/da21b1c8-2352-4371-82b5-2fadc4fec397" />
 
 4. In WHMCS 8+ navigate to System Settings → Servers. In WHMCS 7 or below navigate to Setup → Products/Services → Servers
-5. Create new server, fill the name with anything you want, hostname as the url to the panel either as an IP or domain. For example: ``123.123.123.123`` or ``my.pterodactyl.panel``
+5. Create new server, fill the name with anything you want, hostname as the url to the panel either as an IP or domain. For example: ``123.123.123.123`` or ``my.reviactyl.panel``
 6. Change Server Type to Pterodactyl, leave username empty, fill the password field with your generated API Key.
 7. Tick the "Secure" option if your panel is using SSL.
 8. Confirm that everything works by clicking the Test Connection button -> Save Changes.
@@ -28,12 +28,6 @@ This module is only recommended for using with **Reviactyl v26** and above. Plea
 11. Create your desired product (and product group if you haven't already) with the type of Other and product name of anything -> Continue.
 12. Click the Module Settings tab, choose for Module Name Pterodactyl and for the Server Group the group you created in step 8.
 13. Fill all non-optional fields, and you are good to go!
-
-## Credits
-
-[Dane](https://github.com/DaneEveritt) and [everyone else](https://github.com/Pterodactyl/Panel/graphs/contributors) involved in development of the Pterodactyl Panel.
-[death-droid](https://github.com/death-droid) for the original WHMCS module.
-[Crident](https://crident.com) for providing me a dev environment to test the module on and the installation video.
 
 # FAQ
 
