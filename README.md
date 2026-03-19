@@ -16,7 +16,8 @@ This module is only recommended for using with **Reviactyl v26** and above. Plea
 
 1. Download/Git clone this repository.
 2. Move the ``pterodactyl/`` folder into ``<path to whmcs>/modules/servers/``.
-3. Create API Credentials with these permissions: ![Image](https://i.imgur.com/oeoTyBO.png)
+3. Create API Credentials with these permissions: <img width="830" height="393" alt="image" src="https://github.com/user-attachments/assets/da21b1c8-2352-4371-82b5-2fadc4fec397" />
+
 4. In WHMCS 8+ navigate to System Settings → Servers. In WHMCS 7 or below navigate to Setup → Products/Services → Servers
 5. Create new server, fill the name with anything you want, hostname as the url to the panel either as an IP or domain. For example: ``123.123.123.123`` or ``my.pterodactyl.panel``
 6. Change Server Type to Pterodactyl, leave username empty, fill the password field with your generated API Key.
@@ -36,9 +37,9 @@ This module is only recommended for using with **Reviactyl v26** and above. Plea
 
 # FAQ
 
-## Migrating from death-droid's module
+## Migrating from pterodactyl's module
 
-Migrating is simple, delete death-droid's module and then upload this one instead of it.
+Migrating is simple, delete pterodactyl's module and then upload this one instead of it.
 Then do the steps 3-6 in Installation instructions above and resetup all products.
 
 ## Overwriting values through configurable options
