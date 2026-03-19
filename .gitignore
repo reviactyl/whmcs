@@ -1,2 +1,7 @@
-# JetBrains
-.idea/
+.vscode
+.~*
+*.log
+*.cache
+*.tmp
+*.bak
+*.old
