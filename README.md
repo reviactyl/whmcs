@@ -1,14 +1,14 @@
-## WHMCS
+# Reviactyl WHMCS Module
 
-WHMCS Module for the [Pterodactyl Panel](https://github.com/pterodactyl/panel/).
+WHMCS Module for the [Reviactyl Panel](https://github.com/reviactyl/panel/).
 
 ## Configuration support
 
-Please use the [Pterodactyl Discord](https://discord.gg/pterodactyl) for configuration related support instead of GitHub issues.
+Please use the [Reviactyl Discord](https://reviactyl.app/discord) for configuration related support instead of GitHub issues.
 
 ## NOTE
 
-This module requires the panel to be on version 1.0.0 and above, if you need one for the 0.7.x versions, check the [0.7 branch.](https://github.com/pterodactyl/whmcs/tree/0.7)
+This module is only recommended for using with **Reviactyl v26** and above. Please note that pterodactyl's whmcs module will work as-is with reviactyl.
 
 ## Installation
 
