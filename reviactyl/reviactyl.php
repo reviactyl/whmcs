@@ -1,8 +1,8 @@
 <?php
 
 /**
- * reviactyl.php
- * Core module file for the Reviactyl WHMCS module.
+ * Reviactyl WHMCS Provisoning Module
+ * License: MIT (c) 2026 Reviactyl (https://reviactyl.app)
 **/
 
 if(!defined("WHMCS")) {

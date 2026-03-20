@@ -1,0 +1,27 @@
+{
+    "schema": "1.0",
+    "type": "whmcs-servers",
+    "name": "reviactyl",
+	"version": "canary",
+    "license": "MIT",
+    "category": "provisioning",
+    "description": {
+        "name": "Reviactyl",
+        "tagline": "Manage servers like never before.",
+        "long": "Reviactyl is a modern and open-source game server management panel built using Laravel, React, FilamentPHP, Vite, and Go. It focuses on security and performance by running every game server inside isolated Docker containers while providing users with a clean and intuitive interface."
+    },
+    "logo": {
+        "filename": "logo.png"
+    },
+    "support": {
+        "homepage": "https:\/\/reviactyl.app\/",
+        "support_url": "https:\/\/reviactyl.app\/discord",
+        "docs_url": "https:\/\/reviactyl.app\/docs"
+    },
+    "authors": [
+        {
+            "name": "Reviactyl",
+            "homepage": "https:\/\/reviactyl.app\/"
+        }
+    ]
+}
